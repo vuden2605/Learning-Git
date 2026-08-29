@@ -1,0 +1,22 @@
+- Repo: kho lưu trữ code
+- Git init: khởi tạo sử dụng git ở máy local để push code lên repo trong GitHub
+- Git config user.name, mail : để git biết bạn là ai, ai đẩy code lên repo
+- Git remote add origin https://github.com/vuden2605/Learning-Git : để khai báo cho git biết rằng repo mà mình sử dụng(mình là người tạo repo, muốn đẩy code lên)
+- Git clone  https://github.com/vuden2605/Learning-Git : kéo code mới nhất trên repo về máy, đồng thời chạy git init cho mình( REPO ĐÃ CÓ SẴN)
+
+1. Branch
+- Nhánh chính(nhánh chứa code mới nhất của team), main hoặc master 
+- Feature(tính năng), tạo nhánh riêng để code, sau khi code xong thì mới hợp nhất(merge) vô main(master)
+
+
+1. Working directory, staging, remote
+- Working directory : code dưới local của em
+- Remote: code trên repo- Staging: đứng giữa cả 2, code trên working directory, thì sẽ k đẩy thẳng lên remote, mà đẩy vào staging, từ staging đẩy lên remote
+
+- Git add <tên file> , ví dụ git add test.txt: nó sẽ đẩy code local(working directory) vào staging
+- Git commit -m”first commit”: để mô tả code của bạn vừa làm gì
+- Git push origin <tên nhánh> , ví dụ git push origin main : đẩy code từ staging lên remote
+
+
+2. 
+- Git checkout -b : tạo nhánh mới, k có -b thì là chuyển nhánh thôi
